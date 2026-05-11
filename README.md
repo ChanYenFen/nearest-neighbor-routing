@@ -2,7 +2,7 @@
 
 Toolpath sequencing for 2D curve sets using Greedy Nearest-Neighbor and 2-opt optimization.
 
-OOriginally developed to reduce non-cutting travel distance in 
+Originally developed to reduce non-cutting travel distance in 
 high-precision fabrication workflows, where toolpath sequencing 
 directly impacts cycle time and operational efficiency.
 
@@ -15,7 +15,7 @@ manufacturing domains.
 ## Problem
 
 Given an unordered set of line segments, find a traversal order that minimizes total jump distance —
-the cumulative non-cutting travel between consecutive segments.
+The cumulative non-cutting travel between consecutive segments.
 
 Each segment can be traversed in either direction, so the solver also determines optimal orientation per segment.
 
