@@ -15,7 +15,7 @@ manufacturing domains.
 ## Problem
 
 Given an unordered set of line segments, find a traversal order that minimizes total jump distance —
-The cumulative non-cutting travel between consecutive segments.
+the cumulative non-cutting travel between consecutive segments.
 
 Each segment can be traversed in either direction, so the solver also determines optimal orientation per segment.
 
@@ -24,6 +24,7 @@ This problem appears in:
 - PCB drilling order optimization
 - SMT pick-and-place routing
 - Embroidery and robotic fabrication path planning
+
 In production environments, a poorly sequenced toolpath directly increases cycle time,
 machine wear, and energy consumption — without any change to the design itself.
 
@@ -89,6 +90,7 @@ would be the natural next step.
 
 ## Project Structure
 
+```
 nearest-neighbor-routing/
 │
 ├── src/
@@ -103,13 +105,15 @@ nearest-neighbor-routing/
 │
 ├── main.py              # Benchmark runner
 └── requirements.txt
-
+```
 ---
 
 ## Requirements
 
+```
 numpy
 scipy
+```
 
 ---
 
